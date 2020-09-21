@@ -6,7 +6,19 @@
         line-height: 80px;
         text-align: center;
         background-color: #2fcfed;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.6;
+            background-color: #ffd700;
+            color: #000080;
+            transition: all 0.4s;
+        }
     }
+}
+
+.wrapper {
+    text-align: center;
 }
 
 .content {
@@ -17,6 +29,7 @@
     }
     &-news {
         border-bottom: solid 1px #93deff;
+        padding: 10px;
         &-box {
             margin: 0 30px;
             float: left;
@@ -30,6 +43,20 @@
                 line-height: 18px;
                 font-size: 10px;
                 color: #ffffff;
+            }
+        }
+    }
+    &-service {
+        &-box {
+            margin: 20px 12px;
+            width: 360px;
+            height: 360px;
+            float: left;
+            background-color: #e8e8e8;
+            cursor: pointer;
+            &:hover {
+                opacity: 0.6;
+                transition: all 0.4s;
             }
         }
     }
@@ -69,18 +96,22 @@ header {
             list-style: none;
             li {
                 float: left;
-                margin-right: 50px;
+                padding: 0 30px;
                 line-height: 80px;
                 font-size: 14px;
                 font-weight: bold;
                 letter-spacing: 0.1em;
+                cursor: pointer;
+                &:hover {
+                    background-color: #f2f2f2;
+                    transition: all 0.4s;
+                }
             }
         }
     }
     h3 {
         margin: 0;
         font-size: 16px;
-        color: white;
         letter-spacing: 0.1em;
     }
 }
@@ -107,19 +138,39 @@ header {
 }
 
 #news {
-    margin: 0 auto;
-    width: 1600px;
+    margin: 50px auto;
     h1 {
         margin: 0 40px 0 200px;
         float: left;
+        line-height: 25px;
+        font-size: 40px;
+        color: #019bdf;
+        text-align: left;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.6;
+            transition: all 0.4s;
+        }
+    }
+    small {
+        font-size: 12px;
+        color: #000000;
+    }
+    dl {
+        text-align: left;
+        margin: 50px 150px 0 350px;
+        font-size: 13px;
+    }
+}
+
+#service {
+    margin: 100px;
+    h1 {
+        line-height: 25px;
         font-size: 40px;
         color: #019bdf;
         small {
-            font-size: 12px;
-            color: #000000;
+            font-size: 14px;
         }
-    }
-    dl {
-        font-size: 13px;
     }
 }

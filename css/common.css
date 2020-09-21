@@ -5,6 +5,20 @@
   line-height: 80px;
   text-align: center;
   background-color: #2fcfed;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-header:hover {
+  opacity: 0.6;
+  background-color: #ffd700;
+  color: #000080;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.wrapper {
+  text-align: center;
 }
 
 .content-main {
@@ -15,6 +29,7 @@
 
 .content-news {
   border-bottom: solid 1px #93deff;
+  padding: 10px;
 }
 
 .content-news-box {
@@ -32,6 +47,21 @@
   line-height: 18px;
   font-size: 10px;
   color: #ffffff;
+}
+
+.content-service-box {
+  margin: 20px 12px;
+  width: 360px;
+  height: 360px;
+  float: left;
+  background-color: #e8e8e8;
+  cursor: pointer;
+}
+
+.content-service-box:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 body {
@@ -76,17 +106,23 @@ header nav ul {
 
 header nav ul li {
   float: left;
-  margin-right: 50px;
+  padding: 0 30px;
   line-height: 80px;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+header nav ul li:hover {
+  background-color: #f2f2f2;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 header h3 {
   margin: 0;
   font-size: 16px;
-  color: white;
   letter-spacing: 0.1em;
 }
 
@@ -115,23 +151,47 @@ header h3 {
 }
 
 #news {
-  margin: 0 auto;
-  width: 1600px;
+  margin: 50px auto;
 }
 
 #news h1 {
   margin: 0 40px 0 200px;
   float: left;
+  line-height: 25px;
   font-size: 40px;
   color: #019bdf;
+  text-align: left;
+  cursor: pointer;
 }
 
-#news h1 small {
+#news h1:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#news small {
   font-size: 12px;
   color: #000000;
 }
 
 #news dl {
+  text-align: left;
+  margin: 50px 150px 0 350px;
   font-size: 13px;
+}
+
+#service {
+  margin: 100px;
+}
+
+#service h1 {
+  line-height: 25px;
+  font-size: 40px;
+  color: #019bdf;
+}
+
+#service h1 small {
+  font-size: 14px;
 }
 /*# sourceMappingURL=common.css.map */
