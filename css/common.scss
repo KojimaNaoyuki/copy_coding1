@@ -1,0 +1,54 @@
+.btn {
+    &-header {
+        margin: 0;
+        width: 200px;
+        float: right;
+        line-height: 80px;
+        text-align: center;
+        background-color: #2fcfed;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 80px;
+    h1 {
+        margin: 0;
+        width: 200px;
+        float: left;
+        line-height: 80px;
+        text-align: center;
+        font-size: 28px;
+    }
+    nav {
+        margin: 0;
+        float: right;
+        ul {
+            margin: 0;
+            list-style: none;
+            li {
+                float: left;
+                margin-right: 50px;
+                line-height: 80px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+    }
+    h3 {
+        margin: 0;
+        font-size: 16px;
+        color: white;
+    }
+}
+
+#main {
+    height: 670px;
+    background-color: #8fd5e2;
+    img {
+        width: 100%;
+    }
+}
